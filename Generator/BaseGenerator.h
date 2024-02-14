@@ -1,18 +1,18 @@
 ﻿#pragma once
 
 /**
-* @brief Базовый класс генератора
+* @brief Generator base class
 */
 class BaseGenerator
 {
 public:
 	/**
-	* @brief Чисто виртуальный деструктор
+	* @brief Pure virtual destructor
 	*/
 	virtual ~BaseGenerator() = 0 {};
 
 	/**
-	* @brief Чисто виртуальный метод для генерации числа в классах наследниках
+	* @brief A purely virtual method for generating numbers in descendant classes
 	*/
 	virtual int generate() = 0;
 };

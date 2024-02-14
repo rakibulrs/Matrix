@@ -5,7 +5,7 @@
 
 
 /**
-* @brief Класс задание, что включает в себя 2 подзадания
+* @brief A class assignment that includes 2 subtasks
 */
 struct Task : public BaseTask
 {
@@ -14,20 +14,20 @@ private:
 
 public:
 	/**
-	* @brief Инициализация объекта типа Tasks
-	* @param matrix Матрица с которой надо выполнить задания
+	* @brief Initializing an object of the Tasks type
+	* @param matrix The matrix with which to complete the tasks
 	*/
 	Task(Matrix matrix);
 
 	/**
-	* @brief Решение первого задания
-	* @return Матрица с данными выполенного задания
+	* @brief Solving the first task
+	* @return The matrix with the data of the completed task
 	*/
 	Matrix task_1() override;
 
 	/**
-	* @brief Решение второго задания
-	* @return Матрица с данными выполенного задания
+	* @brief Solving the second task
+	* @return The matrix with the data of the completed task
 	*/
 	Matrix task_2() override;
 };

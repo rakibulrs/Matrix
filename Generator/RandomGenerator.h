@@ -3,7 +3,7 @@
 #include "BaseGenerator.h"
 
 /**
-* @brief Генератор случайного числа в заданном диапазоне
+* @brief Random number generator in a given range
 */
 class RandomGenerator : public BaseGenerator
 {
@@ -13,15 +13,15 @@ private:
 
 public:
 	/**
-	* @brief Инициализация объекта типа RandomGenerator
-	* @param min Минимальное значение для рандома
-	* @param max Максимальное значение для рандома
+	* @brief Initializing an object of the RandomGenerator type
+	* @param min The minimum value for random
+	* @param max The maximum value for random
 	*/
 	RandomGenerator(int min, int max);
 
 	/**
-	* @brief Генерирует рандомное число из заданного ранее диапазона
-	* @return Случайные элемент из заданного диапазона
+	* @brief Generates a random number from a previously set range
+	* @return Random element from a given range
 	*/
 	int generate() override;
 };
